@@ -1,14 +1,20 @@
 package com.dzx;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
-        Medium3Sum medium3Sum = new Medium3Sum();
-        long start = System.currentTimeMillis();
-        int[] nums = {-2,0,0,2,2};
-        List<List<Integer>> result = medium3Sum.threeSum(nums);
-        System.out.println("time: " + (System.currentTimeMillis() - start) + "ms");
+        validSudoku validSudoku = new validSudoku();
+        char[][] board = {
+                {'8','3','.','.','7','.','.','.','.'},
+  {'6','.','.','1','9','5','.','.','.'},
+  {'.','9','8','.','.','.','.','6','.'},
+  {'8','.','.','.','6','.','.','.','3'},
+  {'4','.','.','8','.','3','.','.','1'},
+  {'7','.','.','.','2','.','.','.','6'},
+  {'.','6','.','.','.','.','2','8','.'},
+  {'.','.','.','4','1','9','.','.','5'},
+  {'.','.','.','.','8','.','.','7','9'}
+        };
+        boolean result = validSudoku.isValidSudoku(board);
         System.out.println(result);
     }
 }
