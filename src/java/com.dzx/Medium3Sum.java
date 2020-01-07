@@ -2,7 +2,10 @@ package com.dzx;
 
 import java.util.*;
 
-public class Medium3Sum { // 三数之和,双指针
+/*
+    三数之和,排序固定一位,在右边双指针寻找
+ */
+public class Medium3Sum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums.length == 0) {

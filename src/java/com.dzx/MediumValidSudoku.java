@@ -1,6 +1,9 @@
 package com.dzx;
 
-public class validSudoku {
+/*
+    有效数独,将行,列,宫格的情况以 10 位二进制数存储,每次与运算判断某数字是否用过
+ */
+public class MediumValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         char row = 0b000000000;
         char[] cols = new char[9]; // 每一列
