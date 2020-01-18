@@ -2,9 +2,12 @@ package com.dzx;
 
 public class Main {
     public static void main(String[] args) {
-        MediumRevealCardsInIncreasingOrder solution = new MediumRevealCardsInIncreasingOrder();
-        int[] deck = {17,13,11,2,3,5,7};
-        int[] result = solution.deckRevealedIncreasing(deck);
+        MediumWordSearch solution = new MediumWordSearch();
+        char[][] board = {
+            {'a', 'b', 'c', 'e'},
+            {'s', 'f', 'e', 's'},
+            {'a', 'd', 'e', 'e'}};
+        boolean result = solution.exist(board, "abceseeefs");
         System.out.println(result);
     }
 }
