@@ -63,7 +63,7 @@ public class MediumCheckCompletenessTree {
 }
 
 class TreeNode {
-    private int val;
+    int val;
     TreeNode left;
     TreeNode right;
 
