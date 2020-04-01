@@ -2,8 +2,8 @@ package com.dzx;
 
 public class Main {
     public static void main(String[] args) {
-        MediumStringToInteger solution = new MediumStringToInteger();
-        int result = solution.myAtoi("-6147483648");
+        HardNumberOfAtoms solution = new HardNumberOfAtoms();
+        String result = solution.countOfAtoms("K4(ON(SO3)2)2");
         System.out.println(result);
     }
 }
