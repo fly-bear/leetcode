@@ -4,8 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MediumSplitIntoFibonacci solution = new MediumSplitIntoFibonacci();
-        List<Integer> result = solution.splitIntoFibonacci("31326395158253411");
-        System.out.println(result);
+        MediumRotateMatrixIcci solution = new MediumRotateMatrixIcci();
+        int[][] a = {{}};
+        solution.rotate(a);
+        System.out.println("pass");
     }
 }
