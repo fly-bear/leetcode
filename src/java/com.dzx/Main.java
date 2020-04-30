@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MediumShiftingLetters solution = new MediumShiftingLetters();
-        String result = solution.shiftingLetters("abc", new int[]{3,5,9});
+        MediumArithmeticSlices solution = new MediumArithmeticSlices();
+        int result = solution.numberOfArithmeticSlices(new int[]{1,2,3,8,9,10});
         System.out.println("pass");
     }
 }
