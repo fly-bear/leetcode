@@ -1,4 +1,6 @@
-package com.dzx;
+package com.dzx.medium;
+
+import com.dzx.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -6,7 +8,7 @@ import java.util.Queue;
 /*
     完全二叉树检查,先求最左子节点深度,前几层必须全满,最后一层不能有子节点,本身全靠左.深度优先遍历
  */
-public class MediumCheckCompletenessTree {
+public class CheckCompletenessTree {
     public boolean isCompleteTree(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         int deepth = 0;
@@ -62,12 +64,4 @@ public class MediumCheckCompletenessTree {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}

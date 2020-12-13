@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ import java.util.Map;
  *
  * 暴力枚举，A 中每一个1分别移动到 B 的每一个1，表示这种偏移方式下A这个点可以重合。统计每种偏移方式(x, y)次数，某种偏移方式的次数即为此种偏移的重合点个数
  */
-public class MediumImageOverlap {
+public class ImageOverlap {
     public int largestOverlap(int[][] A, int[][] B) {
         List<int[]> A1 = new ArrayList<>();
         Map<Integer, Integer> count = new HashMap<>();

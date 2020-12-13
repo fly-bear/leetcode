@@ -1,5 +1,6 @@
-package com.dzx;
+package com.dzx.easy;
 
+import com.dzx.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 

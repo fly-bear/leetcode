@@ -1,5 +1,7 @@
-package com.dzx;
+package com.dzx.easy;
 
+
+import com.dzx.ListNode;
 
 /**
  * 给定一个带有头结点 head 的非空单链表，返回链表的中间结点。
@@ -8,15 +10,6 @@ package com.dzx;
  * 双指针，一个逐步前进，一个只前进到一半
  */
 
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
 
 public class SimpleMiddleOfTheLinkedList {
     public ListNode middleNode(ListNode head) {

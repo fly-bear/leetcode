@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.hard;
 
 import java.util.HashMap;
 import java.util.Map;

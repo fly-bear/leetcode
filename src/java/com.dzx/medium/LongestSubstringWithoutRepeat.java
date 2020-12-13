@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,7 +9,7 @@ import java.util.Set;
  * 滑动窗口
  */
 
-public class MediumLongestSubstringWithoutRepeat {
+public class LongestSubstringWithoutRepeat {
     public int lengthOfLongestSubstring(String s) {
         int left = 0;
         int right = 0;

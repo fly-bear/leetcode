@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 /**
  * 如果一个数列至少有三个元素，并且任意两个相邻元素之差相同，则称该数列为等差数列。
@@ -11,7 +11,7 @@ package com.dzx;
  * 因为最少 3 个一组，所以若前面最长连续等差子序列长 m，则加上 A[i]后可通过切分新增 m-1 个子序列
  * 每次递归,修改公共变量总序列数，然后返回末尾连续最长递增子序列长度，若无递增或递增中断，返回 2
  */
-public class MediumArithmeticSlices {
+public class ArithmeticSlices {
 	int sum = 0;
 	public int numberOfArithmeticSlices(int[] A) {
 		this.calculate(A, A.length-1);

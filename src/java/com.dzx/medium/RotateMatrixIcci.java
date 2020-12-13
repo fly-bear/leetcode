@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 /**
  * 给你一幅由 N × N 矩阵表示的图像，其中每个像素的大小为 4 字节。请你设计一种算法，将图像旋转 90 度。
@@ -6,7 +6,7 @@ package com.dzx;
  *
  * 从外向内一圈圈处理， 元素三次交换完成旋转，位运算实现交换
  */
-public class MediumRotateMatrixIcci {
+public class RotateMatrixIcci {
     public void rotate(int[][] matrix) {
         for (int circle=0; circle<matrix.length/2; circle++) {
             for (int column = circle; column<matrix.length-1-circle; column++) {

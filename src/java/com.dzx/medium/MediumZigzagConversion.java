@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.Arrays;
 import java.util.Objects;

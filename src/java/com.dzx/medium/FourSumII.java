@@ -1,12 +1,14 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /*
-    四数相加问题,A[i]+B[j]放入 hashMap,遍历 C[m]+D[n]查找
+ *  四数相加问题ii,给定四个包含整数的数组列表 A , B , C , D ,计算有多少个元组 (i, j, k, l) ，使得 A[i] + B[j] + C[k] + D[l] = 0
+ *
+ *  A[i]+B[j]放入 hashMap,遍历 C[m]+D[n]查找
  */
-public class Medium4Sum {
+public class FourSumII {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> hash = new HashMap<>();
         for (int a : A) {

@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 /*
     有效数独,将行,列,宫格的情况以 10 位二进制数存储,每次与运算判断某数字是否用过

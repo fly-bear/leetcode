@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.ArrayList;
 import java.util.List;

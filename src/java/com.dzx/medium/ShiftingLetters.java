@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 /**
  *一个由小写字母组成的字符串 S，和一个整数数组 shifts。
@@ -9,7 +9,7 @@ package com.dzx;
  *
  * 计算每一个字符最终移位位数即可，可使用取余计算
  */
-public class MediumShiftingLetters {
+public class ShiftingLetters {
     public String shiftingLetters(String S, int[] shifts) {
         StringBuilder stringBuilder = new StringBuilder();
         int sum = 0;

@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -13,7 +13,7 @@ import java.util.Queue;
  *
  * 取牌过程相当于将牌排序后围成圈，每隔一张取出一张牌，直到都取完
  */
-public class MediumRevealCardsInIncreasingOrder {
+public class RevealCardsInIncreasingOrder {
     public int[] deckRevealedIncreasing(int[] deck) {
         Arrays.sort(deck);
         if (deck.length < 3) {

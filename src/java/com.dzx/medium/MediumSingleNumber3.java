@@ -1,4 +1,4 @@
-package com.dzx;
+package com.dzx.medium;
 
 /**
  * 给定一个整数数组 nums，其中恰好有两个元素只出现一次，其余所有元素均出现两次。 找出只出现一次的那两个元素。
@@ -9,7 +9,7 @@ package com.dzx;
  * 4、对其中一组两两异或，得到 x
  * 5、x 与 mask 异或，得到 y
  */
-public class mediumSingleNumber3 {
+public class MediumSingleNumber3 {
     public int[] singleNumber(int[] nums) {
         int x = 0;
         int mask = 0;
