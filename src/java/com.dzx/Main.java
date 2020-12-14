@@ -1,20 +1,13 @@
 package com.dzx;
 
-import com.dzx.easy.EasyValiadPalinedromII;
-import com.dzx.medium.DeleteNodeInABst;
-import com.dzx.medium.LongestTurbulentSubarray;
-import com.dzx.medium.LongestWordInDictionaryThroughDeleting;
-import com.dzx.medium.Permutations;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.dzx.hard.MaximumSumBstInBinaryTree;
 
 public class Main {
     public static void main(String[] args) {
-	    DeleteNodeInABst solution = new DeleteNodeInABst();
-	    TreeNode root = new TreeNode(1, null, new TreeNode(2));
-	    TreeNode result = solution.deleteNode(root, 1);
+	    MaximumSumBstInBinaryTree solution = new MaximumSumBstInBinaryTree();
+	    TreeNode root = new TreeNode(1, new TreeNode(4,new TreeNode(2), new TreeNode(4)),
+		    new TreeNode(3, new TreeNode(2), new TreeNode(5, new TreeNode(4), new TreeNode(6))));
+	    int result = solution.maxSumBST(root);
         System.out.println(result);
     }
 }
