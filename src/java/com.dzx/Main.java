@@ -1,6 +1,8 @@
 package com.dzx;
 
 import com.dzx.easy.EasyValiadPalinedromII;
+import com.dzx.medium.DeleteNodeInABst;
+import com.dzx.medium.LongestTurbulentSubarray;
 import com.dzx.medium.LongestWordInDictionaryThroughDeleting;
 import com.dzx.medium.Permutations;
 
@@ -10,8 +12,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        MaximumSumOfConsecutiveSubarrays solution = new MaximumSumOfConsecutiveSubarrays();
-        int result = solution.solve(new int[]{1,-2,3,10,-4,7,2,-5});
+	    DeleteNodeInABst solution = new DeleteNodeInABst();
+	    TreeNode root = new TreeNode(1, null, new TreeNode(2));
+	    TreeNode result = solution.deleteNode(root, 1);
         System.out.println(result);
     }
 }
